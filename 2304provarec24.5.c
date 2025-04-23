@@ -15,7 +15,7 @@ dano = forçap*narma*multc;
 
 if (dano>5000)
 printf ("Dano critico massivo %.2f\n", dano);
-else if (dano>=1000 && dano <=5000)
+else if (dano>=1000)
 printf("Dano critico %.2f\n", dano);
 else
 printf("Dano normal %.2f\n", dano);
